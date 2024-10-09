@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Advanced Element Remover",
+    "version": "1.0",
+    "description": "Removes specific elements from webpages based on regex rules",
+    "permissions": [
+      "activeTab"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }
