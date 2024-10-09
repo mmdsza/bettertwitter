@@ -20,7 +20,7 @@ const rules = [
       selectors: [
         "aside[aria-label='Expiring soon!']",
         "a[href='/i/grok'][aria-label='Grok']",
-        "a[href='/i/jobs'][aria-label='Jobs']",
+        "a[href='/jobs'][aria-label='Jobs']",
         "a[href='/i/premium_sign_up'][aria-label='Premium']"]// Customize this selector
     }
   ];
